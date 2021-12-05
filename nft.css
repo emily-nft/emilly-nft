@@ -8,7 +8,7 @@ body {
 }
 section {
   display: grid;
-  grid-template-columns: repeat(auto-fill, 220px 200px);
+  grid-template-columns: repeat(auto-fill, 250px);
 
   column-gap: 12px;
   padding: 70px;
@@ -73,7 +73,7 @@ i {
 .buy21 {
   gap: 20px;
   display: grid;
-  grid-template-columns: repeat(auto-fill, 200px 200px);
+  grid-template-columns: repeat(auto-fill, 250px 250px);
   background-color: #2e2e2e;
 }
 .block {
@@ -144,7 +144,7 @@ i {
   background-color: #2e2e2e;
   color: #ffffff;
   text-align: center;
-  margin-right: 6rem;
+  align-items: center;
 }
 .crypto-ape {
   color: #ffffff;
@@ -152,7 +152,7 @@ i {
   text-align: center;
   font-size: 1em;
   font-weight: lighter;
-  margin-right: 2rem;
+  align-items: center;
 }
 .footer {
   border: 3px solid #2e2e2e;
@@ -184,7 +184,8 @@ i {
 }
 footer {
   background-color: #ffffff;
-  padding: 50px;
+  padding-top: 15rem;
+  padding-bottom: 5rem;
   display: flex;
   justify-content: space-evenly;
 }
@@ -196,5 +197,5 @@ footer {
   font-size: 14px;
   font-weight: 400;
   padding-top: 25px;
-  padding-bottom: 12px;
+  padding-bottom: 25px;
 }
