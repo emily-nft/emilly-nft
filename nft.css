@@ -60,7 +60,8 @@ section {
 }
 .img-details {
   display: flex;
-  gap: 20px;
+  row-gap: 20px;
+  column-gap: 20px;
   align-items: flex-end;
 }
 .numbers {
