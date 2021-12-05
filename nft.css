@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+section {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 270px);
+  column-gap: 12px;
+  padding: 50px;
+  color: #112a46;
+  justify-content: center;
+  /* row-gap: 20px; */
+}
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: #440074;
+  padding: 20px;
+}
+.card1 {
+  border: 2px solid #acc8e5;
+  padding: 20px 20px;
+  background-color: #8bbece;
+}
+.card2 {
+  border: 2px solid #acc8e5;
+  padding: 20px 20px;
+  background-color: #336b05;
+}
+.card3 {
+  border: 2px solid #acc8e5;
+  padding: 20px 20px;
+  background-color: #c958ce;
+}
+.card4 {
+  border: 2px solid #acc8e5;
+  padding: 20px 20px;
+  background-color: #339af0;
+}
+.nft {
+  color: #279806;
+}
+.home {
+  color: #279806;
+}
+.img1 {
+  background-color: #324143;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  padding: 20px 20px;
+  border-radius: 12px 12px;
+  line-height: 1.5;
+}
+.img-details {
+  display: flex;
+  gap: 20px;
+  align-items: flex-end;
+}
+.numbers {
+  color: #fff;
+}
+.name {
+  color: #fff;
+  font-weight: 900;
+}
+i {
+  font-size: 16px;
+}
+.verify {
+  display: flex;
+  gap: 5px;
+}
