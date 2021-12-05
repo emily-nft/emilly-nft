@@ -73,7 +73,7 @@ i {
 .buy21 {
   gap: 20px;
   display: grid;
-  grid-template-columns: repeat(auto-fill, 250px 250px);
+  grid-template-columns: repeat(auto-fill, 200px 200px);
   background-color: #2e2e2e;
 }
 .block {
