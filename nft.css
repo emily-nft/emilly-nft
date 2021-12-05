@@ -60,9 +60,7 @@ section {
 }
 .img-details {
   display: flex;
-  row-gap: 20px;
-  column-gap: 20px;
-  align-items: flex-end;
+  justify-content: space-between;
 }
 .numbers {
   color: #fff;
