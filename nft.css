@@ -8,7 +8,7 @@ body {
 }
 section {
   display: grid;
-  grid-template-columns: repeat(auto-fill, 220px 220px);
+  grid-template-columns: repeat(auto-fill, 250px);
 
   column-gap: 12px;
   padding: 70px;
@@ -73,7 +73,7 @@ i {
 .buy21 {
   gap: 20px;
   display: grid;
-  grid-template-columns: repeat(auto-fill, 200px 200px);
+  grid-template-columns: repeat(auto-fill, 250px);
   background-color: #2e2e2e;
   justify-content: center;
 }
