@@ -12,7 +12,7 @@ section {
 
   column-gap: 12px;
   padding: 70px;
-  color: #112a46;
+  color: burlywood;
 
   justify-content: center;
 
@@ -27,19 +27,19 @@ section {
 }
 .card1 {
   padding: 20px 20px;
-  background-color: #8bbece;
+  /* background-color: #8bbece; */
 }
 .card2 {
   padding: 20px 20px;
-  background-color: #336b05;
+  /* background-color: #336b05; */
 }
 .card3 {
   padding: 20px 20px;
-  background-color: #c958ce;
+  /* background-color: #c958ce; */
 }
 .card4 {
   padding: 20px 20px;
-  background-color: #68bbba;
+  /* background-color: #68bbba; */
 }
 .nft {
   color: #707888;
@@ -75,6 +75,7 @@ i {
   display: grid;
   grid-template-columns: repeat(auto-fill, 200px 200px);
   background-color: #2e2e2e;
+  justify-content: center;
 }
 .block {
   display: flex;
@@ -208,6 +209,6 @@ footer {
   margin-right: 1rem;
 }
 .crypto-ape {
-  color: #1e4a7c;
-  font-size: 1.5em;
+  color: #a4b411;
+  font-size: 1.2em;
 }
