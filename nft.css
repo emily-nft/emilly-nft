@@ -8,7 +8,7 @@ body {
 }
 section {
   display: grid;
-  grid-template-columns: repeat(auto-fill, 250px);
+  grid-template-columns: repeat(auto-fill, 220px 220px);
 
   column-gap: 12px;
   padding: 70px;
@@ -184,13 +184,14 @@ i {
 }
 footer {
   background-color: #ffffff;
-  padding-top: 15rem;
+  padding-top: 5rem;
   padding-bottom: 5rem;
   display: flex;
   justify-content: space-evenly;
 }
 .foot {
   border-top: 1px solid rgba(59, 59, 59, 0.13);
+
   background-color: #ffffff;
   color: #3b3b3b;
   text-align: center;
@@ -198,4 +199,15 @@ footer {
   font-weight: 400;
   padding-top: 25px;
   padding-bottom: 25px;
+}
+.footer {
+  box-shadow: 20px 30px 70px rgb(77, 74, 74);
+  border-radius: 50px 50px;
+  margin-bottom: 7px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.crypto-ape {
+  color: #1e4a7c;
+  font-size: 1.5em;
 }
