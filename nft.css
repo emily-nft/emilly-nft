@@ -27,17 +27,21 @@ section {
 }
 .card12 {
   border-radius: 50px 50px;
+  font-size: 14px;
 }
 .card1 {
   padding: 20px 20px;
+  font-size: 14px;
   /* background-color: #8bbece; */
 }
 .card2 {
   padding: 20px 20px;
+  font-size: 14px;
   /* background-color: #336b05; */
 }
 .card3 {
   padding: 20px 20px;
+  font-size: 14px;
   /* background-color: #c958ce; */
 }
 .card4 {
