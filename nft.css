@@ -30,22 +30,18 @@ section {
   font-size: 14px;
 }
 .card1 {
-  padding: 20px 20px;
   font-size: 14px;
   /* background-color: #8bbece; */
 }
 .card2 {
-  padding: 20px 20px;
   font-size: 14px;
   /* background-color: #336b05; */
 }
 .card3 {
-  padding: 20px 20px;
   font-size: 14px;
   /* background-color: #c958ce; */
 }
 .card4 {
-  padding: 20px 20px;
   /* background-color: #68bbba; */
 }
 .nft {
@@ -65,6 +61,7 @@ section {
 .img-details {
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 .numbers {
   color: #fff;
@@ -86,13 +83,9 @@ i {
 }
 .block {
   display: flex;
-
-  margin-left: 2px;
-
   color: #fff;
   padding-bottom: 12px;
   border-bottom: 2px solid rgba(174, 181, 196, 0.11);
-  width: fit-content;
   align-items: center;
 }
 .blockchain {
@@ -137,6 +130,9 @@ i {
 }
 .date {
   font-size: 10px;
+}
+.edition {
+  color: burlywood;
 }
 .Group {
   margin-left: 3px;
@@ -219,14 +215,55 @@ footer {
   color: #a4b411;
   font-size: 1.2em;
 }
+
+.carousel {
+  margin: 0 auto;
+  background-color: #151515;
+  width: 800px;
+  height: 250px;
+}
+.carousel-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel-inner {
+  margin: 0 auto;
+}
+
+.owners {
+  margin-right: 12px;
+  color: burlywood;
+}
+.views {
+  color: burlywood;
+}
+
 @media only screen and (max-width: 600px) {
+  .verified-icon {
+    height: 14px;
+    width: 14px;
+    margin-right: 8px;
+  }
+  i {
+    font-size: 12px;
+  }
+
+  .img-details {
+    font-size: 12px;
+  }
+
   .crypto-ape {
     font-size: 0.8em;
   }
-}
-.owners {
-  margin-right: 12px;
-}
-.views {
-  margin-left: 12px;
+
+  section {
+    /* remove grid gap on mobile */
+    column-gap: 16px;
+    row-gap: 32px;
+  }
+
+  .carousel {
+    width: 100%;
+  }
 }
